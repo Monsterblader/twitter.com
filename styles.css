@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+#newTweet{
+	height:300px;
+	width: 600px;
+	background-color: red;
+}
+.newTweet{
+ border: solid 1px #666;
+ border-radius: 10px;
+ padding:5px;
+ margin-top: 10px;
+ background-color: #E0E4CC;
+ box-shadow:1px 1px 2px 2px #ccc;
+}
+
+
+#container{
+	margin: 0 auto;
+	border: none;
+	border-color: #666;
+	
+	width:50%;
+	
+}
+
+#footer{
+	width:50%;
+	border: solid 1px #666;
+position: fixed;
+	bottom: 0px;
+	z-index: 100;
+	background-color: #666;
+	padding: 5px;
+	height:25px;
+	margin:0 auto;
+
+}
+
+.tweetHeader{
+	background-color: #A7DBD8;
+	padding: 5px;
+}
+
+.userName{
+	font-weight: bold;
+}
+
+.tweetTime{
+	font-weight: lighter;
+	color: rgba(0,0,0 .8);
+	font-size: .8em;
+}
+
+.tweetBody{
+	background-color: #E0E4CC;
+	padding:5px;
+}
+
+#loadTweets{
+	position: fixed;
+
+}
